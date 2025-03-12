@@ -18,8 +18,8 @@ int main () {
 
     double MonthlySalary = (HoursWorked * Salary);
 
-    printf("ClerkNumber: %d\n", ClerkNumber);
-    printf("MonthlySalary: %.2lf\n", MonthlySalary);
+    printf("\n ClerkNumber: %d\n", ClerkNumber);
+    printf("\n MonthlySalary: %.2lf\n", MonthlySalary);
 
     return 0;
 
