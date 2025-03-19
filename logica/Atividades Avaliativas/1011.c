@@ -1,3 +1,5 @@
+//Pedro Henrique Soares Puccinelli
+
 #include <stdio.h>
 
 #define PI  3.14159
