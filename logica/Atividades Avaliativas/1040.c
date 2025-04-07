@@ -10,7 +10,7 @@ int main() {
 
     // Cálculo da média ponderada
     media = (N1 * 2 + N2 * 3 + N3 * 4 + N4 * 1) / 10;
-    printf("Média: %.1f\n", media);
+    printf("Media: %.1f\n", media);
 
     // Verificação da situação do aluno
     if (media >= 7.0) {
@@ -35,7 +35,7 @@ int main() {
             printf("Aluno reprovado.\n");
         }
         
-        printf("Final de média: %.1f\n", media_final);
+        printf("Final de media: %.1f\n", media_final);
     }
 
     return 0;

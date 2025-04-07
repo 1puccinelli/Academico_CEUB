@@ -11,11 +11,11 @@ int main() {
     // Verificando se os lados formam um triângulo (condição da desigualdade triangular)
     if (A + B > C && A + C > B && B + C > A) {
         float perimetro = A + B + C;
-        printf("Perímetro = %.1f\n", perimetro);
+        printf("Perimetro = %.1f\n", perimetro);
     } else {
         // Caso contrário, calcular a área do trapézio
         float area = ((A + B) * C) / 2;
-        printf("Área = %.1f\n", area);
+        printf("Area = %.1f\n", area);
     }
 
     return 0;
