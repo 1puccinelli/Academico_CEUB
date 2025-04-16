@@ -12,25 +12,25 @@ int main () {
     printf("Digite o segundo numero");
     scanf("%d", &num2);
 
-    while ((getchar()) != '\n');
+    while ((getchar()) != '\n');  //Adicionado para não dar erro de 'Operação Inválida' toda hora
 
     printf("Digite a operacao (+, -, *, /)");
-    scanf(" %c", &operacao);
+    scanf(" %c", &operacao);  //Adicionado o 'espaço antes do "%c" ' para não dar o erro também
 
     switch (operacao) {
-        case '+':
+        case '+':  //Adição
     printf("Resultado: %d\n", num1 + num2);
     break;
 
-        case '-':
+        case '-':  //Subtração
     printf("Resultado: %d\n", num1 - num2);
     break;
 
-        case '*':
+        case '*':  //Multiplicação
     printf("Resultado: %d\n", num1 * num2);
     break;
 
-        case '/':
+        case '/':  //Divisão
     if (num2 != 0) {
     printf("Resultado: %d\n", num1 / num2);
     break;
