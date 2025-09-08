@@ -1,0 +1,55 @@
+<!--Aluno: Pedro Henrique Soares Puccinelli
+    RA: 22504533                          -->
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 9 HTML</title>
+</head>
+<body>
+    <h1>Exemplo 9 - Uso das Tags de Imagem e Vídeo</h1>
+    <p>Este exemplo mostra diferentes formas de usar as tags <code>&lt;img&gt;</code> e <code>&lt;video&gt;</code>, incluindo o uso de <code>&lt;figure&gt;</code> e <code>&lt;figcaption&gt;</code> para agrupar mídias com legendas.</p>
+
+    <h2>Descrição</h2>
+    <p>As tags abordadas são:</p>
+    <ul>
+        <li><strong>&lt;img&gt;</strong>: Usada para inserir imagens na página.</li>
+        <li><strong>&lt;video&gt;</strong>: Usada para inserir vídeos na página.</li>
+        <li><strong>&lt;figure&gt;</strong>: Usada para agrupar mídias (imagens, vídeos, gráficos) com uma legenda.</li>
+        <li><strong>&lt;figcaption&gt;</strong>: Usada para adicionar uma legenda ao conteúdo dentro de <code>&lt;figure&gt;</code>.</li>
+    </ul>
+
+    <h2>Exemplos Práticos</h2>
+    <h3>Imagem usando os atributos img, figure e figcaption</h3>
+    <p>Uma iamgem agrupada com legenda descritiva</p>
+    <figure>
+        <img src="imagem1.jpg" alt="Cachorro">
+        <figcaption>Figura1: Cachorro</figcaption>
+    </figure>
+
+    <h3>Video com Legenda usando &lt;figure&gt; e &lt;figcaption&gt;</h3>
+    <figure>
+        <video controls width="400">
+            <source src="https://w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            <source src="https://w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+
+            Seu navegador não suporta o elemento de video.
+        </video>
+    </figure>
+
+    <h3>Incorporação de Videos do Youtube usando a tag &lt;iframe&gt;</h3>
+    <p>Neste exemplo vamos usar dois videos do YouTube lado a lado usando a tag &lt;iframe&gt;</p>
+    <div>
+        <figure>
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/yNxb7Tf3y80" title="5 Vídeos Assustadores e misteriosos de muito Terror Capturados por Câmera" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <figcaption>5 Vídeos Assustadores e misteriosos de muito Terror Capturados por Câmera</figcaption>
+        </figure>
+        <figure>
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/a3h3oMl41hc" title="Cute baby animals Videos Compilation cute moment of the animals #15 Cutest Animals 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <figcaption>Cute baby animals Videos Compilation cute moment of the animals #15 Cutest Animals 2023</figcaption>
+        </figure>
+    </div>
+</body>
+</html>
